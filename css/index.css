@@ -3,10 +3,11 @@
 .inputlist{  margin-left: 150px;width: 350px; height: 37px;border-radius: 3px;
 }
 .listcontents{width: 800px;margin: auto;background-color: aliceblue;height: 90vh;margin-top: -14px;}
-.ld{display: inline-block;width: 400px;}
-/* #listc li{list-style: none;} */
+.ld{display: inline-block;width: 400px;overflow:hidden;overflow-x:visible;}
+#listc li{list-style: none;}
 #listmainvalue{width: 500px;
 height: auto;
 display: inline-block;
 padding-left: 120px;}
-.cross{width: 30px;height: 20px;display: inline-block;background-image: url('/images/X.jpg');background-size: contain;background-repeat: no-repeat;}
+.cross{width: 30px;height: 20px;display: inline-block;background-size: contain;background-repeat: no-repeat;}
+.title{font-weight: 700;}

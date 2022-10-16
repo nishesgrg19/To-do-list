@@ -18,14 +18,15 @@ function getlist(){
 
    
     }
-    let cross=document.createElement('span')
-    cross.setAttribute('class','cross')
+    let cross=document.createElement('i')
+    cross.setAttribute('class','bi bi-trash3-fill')
+    cross.style.marginLeft=4+'px'
     listdata.appendChild(cross)
    
 
     
     // deleting the contents//
-    let remove=document.querySelectorAll('.cross')
+    let remove=document.querySelectorAll('.bi')
     remove.forEach((item)=>{
     item.addEventListener('click',()=>{
         item.parentElement.remove()
@@ -35,7 +36,7 @@ function getlist(){
    
    
 }
-let remove=document.querySelectorAll('.cross')
+let remove=document.querySelectorAll('.bi')
 remove.forEach((item)=>{
     item.addEventListener('click',()=>{
         item.parentElement.remove()
