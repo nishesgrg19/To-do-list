@@ -25,13 +25,19 @@ function getlist(){
 
     
     // deleting the contents//
-
     let remove=document.querySelectorAll('.cross')
     remove.forEach((item)=>{
-        item.addEventListener('click',()=>{
-            item.parentElement.remove()
-        })
+    item.addEventListener('click',()=>{
+        item.parentElement.remove()
     })
+})
+  
    
    
 }
+let remove=document.querySelectorAll('.cross')
+remove.forEach((item)=>{
+    item.addEventListener('click',()=>{
+        item.parentElement.remove()
+    })
+})
