@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        *{margin: 0px;padding: 0px;}
+        .todolist{width: 800px;background-color:deepskyblue;height: 120px;margin: auto}
+        .inputlist{  margin-left: 150px;width: 350px; height: 37px;border-radius: 3px;
+}
+.listcontents{width: 800px;margin: auto;background-color: aliceblue;height: 90vh;}
+.ld{display: inline-block;width: 400px;}
+/* #listc li{list-style: none;} */
+#listmainvalue{width: 500px;
+height: auto;
+display: inline-block;
+padding-left: 120px;}
+.cross{width: 30px;height: 20px;display: inline-block;background-image: url('./images/X.jpg');background-size: contain;background-repeat: no-repeat;}
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="todolist">
+            <h3 class="text-center py-2">TO DO list Frontend Project</h3>
+            <span><input type="text" placeholder="List Title..." class="inputlist" id="screen"></span>
+            <span><a class="btn btn-success" id="add">ADD</a></span>    
+        </div>
+        <div class="listcontents">
+            <ol id="listc">
+               <li class="listvalue">
+                <span class="ld">Okboss</span>
+                <span class="cross"></span>
+               </li>
+               <li class="listvalue">
+                <span class="ld">COll</span>
+                <span class="cross"></span>
+               </li>
+               <li class="listvalue">
+                <span class="ld">Nishesdon</span>
+                <span class="cross"></span>
+               </li>
+            </ol>
+        </div>
+
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="/js/index.js"></script>
+<script src="/test.js"> </script>
+</html>
